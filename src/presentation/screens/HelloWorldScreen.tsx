@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 
-import CounterScreen from './CounterScreen';
+import CounterScreenM3 from './CounterScreenM3';
 
 interface HelloWorldScreenProps {
   name?: string;
@@ -19,7 +19,8 @@ const HelloWorldScreen = ({name = 'World'}: HelloWorldScreenProps) => {
         Hello, {name} Screen!
       </Text> */}
 
-      <CounterScreen />
+      {/* <CounterScreen /> */}
+      <CounterScreenM3 />
     </View>
   );
 };

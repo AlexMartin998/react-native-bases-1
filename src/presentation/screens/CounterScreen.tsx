@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-import {PrimaryButton} from '../components';
+import {Button} from 'react-native-paper';
 
 export type CounterScreenProps = {};
 
@@ -12,11 +12,19 @@ const CounterScreen: React.FC<CounterScreenProps> = () => {
     <View style={styles.container}>
       <Text style={styles.title}>{counter}</Text>
 
-      <PrimaryButton
+      {/* ------ custom btn ------- */}
+      {/* <PrimaryButton
         btnLabel="Increment"
         onPress={() => setCounter(counter + 1)}
         onLongPress={() => setCounter(0)}
-      />
+      /> */}
+
+      <Button
+        mode="contained"
+        onPress={() => setCounter(counter + 1)}
+        onLongPress={() => setCounter(0)}>
+        Increment
+      </Button>
     </View>
   );
 };
