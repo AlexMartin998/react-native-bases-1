@@ -3,7 +3,6 @@ import {Text, View} from 'react-native';
 import {FAB} from 'react-native-paper';
 
 // icons
-import Icon from 'react-native-vector-icons/Ionicons';
 
 import {APP_STYLES} from '../theme';
 
@@ -16,12 +15,13 @@ const CounterScreenM3: React.FC<CounterScreenM3Props> = () => {
     <View style={APP_STYLES.centerContainer}>
       <Text style={APP_STYLES.title}>{counter}</Text>
 
-      <Icon name="airplane-outline" size={25} />
+      {/* <Icon name="airplane-outline" size={25} /> */}
 
       <FAB
-        label="+1"
+        icon="add"
         style={APP_STYLES.fab}
         onPress={() => setCounter(counter + 1)}
+        onLongPress={() => setCounter(0)}
       />
     </View>
   );
