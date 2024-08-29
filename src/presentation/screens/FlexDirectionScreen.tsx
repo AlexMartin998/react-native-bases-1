@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     // alignItems: 'center',
 
-    // // // wrap: los hijos se acomodan en la siguiente fila
+    // // // wrap: los hijos se acomodan en la siguiente fila cuando no caben
     flexWrap: 'wrap',
   },
 

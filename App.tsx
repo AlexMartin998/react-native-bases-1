@@ -4,7 +4,7 @@ import {SafeAreaView, StyleSheet} from 'react-native';
 import {PaperProvider} from 'react-native-paper';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 
-import {FlexDirectionScreen} from './src/presentation/screens/FlexDirectionScreen';
+import HomeworkScreen from './src/presentation/screens/HomeworkScreen';
 
 export type AppProps = {};
 
@@ -29,7 +29,8 @@ const App: React.FC<AppProps> = () => {
         {/* <DimensionScreen /> */}
         {/* <PositionScreen /> */}
         {/* <FlexScreen /> */}
-        <FlexDirectionScreen />
+        {/* <FlexDirectionScreen /> */}
+        <HomeworkScreen />
       </SafeAreaView>
     </PaperProvider>
   );
