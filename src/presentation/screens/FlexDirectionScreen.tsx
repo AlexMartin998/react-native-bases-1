@@ -29,12 +29,15 @@ const styles = StyleSheet.create({
 
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
+    // alignItems: 'center',
   },
 
   box: {
+    // // with & height se ven afectados x el flexDirection
     width: 100,
     height: 100,
+
+    // flex: 1, // se estira todo lo que pueda
   },
 
   box1: {
