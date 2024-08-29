@@ -9,6 +9,18 @@ export const FlexDirectionScreen = () => {
       <View style={[styles.box, styles.box2]} />
 
       <View style={[styles.box, styles.box3]} />
+
+      <View style={[styles.box, styles.box4]} />
+
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box4]} />
+
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box4]} />
     </View>
   );
 };
@@ -30,6 +42,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     // alignItems: 'center',
+
+    // // // wrap: los hijos se acomodan en la siguiente fila
+    flexWrap: 'wrap',
   },
 
   box: {
@@ -45,10 +60,13 @@ const styles = StyleSheet.create({
   },
   box2: {
     backgroundColor: '#FFAD29',
-    alignSelf: 'flex-end',
+    // alignSelf: 'flex-end',
   },
   box3: {
     backgroundColor: '#29AFD6',
-    alignSelf: 'center',
+    // alignSelf: 'center',
+  },
+  box4: {
+    backgroundColor: '#27d6af',
   },
 });
