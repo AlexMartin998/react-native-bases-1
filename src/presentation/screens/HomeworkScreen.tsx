@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#28425B',
 
-    justifyContent: 'center',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
   box: {
     width: 100,
@@ -40,6 +41,6 @@ const styles = StyleSheet.create({
   },
   blueBox: {
     backgroundColor: '#29AFD6',
-    alignSelf: 'center',
+    alignSelf: 'flex-start',
   },
 });
