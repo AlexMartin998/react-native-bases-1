@@ -45,8 +45,10 @@ const styles = StyleSheet.create({
   },
   box2: {
     backgroundColor: '#FFAD29',
+    alignSelf: 'flex-end',
   },
   box3: {
     backgroundColor: '#29AFD6',
+    alignSelf: 'center',
   },
 });
