@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
 
   purpleBox: {
     backgroundColor: '#5856D6',
+    bottom: -100,
   },
   orangeBox: {
     backgroundColor: '#F0A23B',
