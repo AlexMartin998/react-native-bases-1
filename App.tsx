@@ -4,7 +4,7 @@ import {SafeAreaView, StyleSheet} from 'react-native';
 import {PaperProvider} from 'react-native-paper';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 
-import HelloWorldScreen from './src/presentation/screens/HelloWorldScreen';
+import PositionScreen from './src/presentation/screens/PositionScreen';
 
 export type AppProps = {};
 
@@ -24,7 +24,10 @@ const App: React.FC<AppProps> = () => {
       }}>
       {/* safe area view is used to avoid the status bar and the notch */}
       <SafeAreaView style={styles.container}>
-        <HelloWorldScreen name="Alex" />
+        {/* <HelloWorldScreen name="Alex" /> */}
+        {/* <BoxObjectModelScreen /> */}
+        {/* <DimensionScreen /> */}
+        <PositionScreen />
       </SafeAreaView>
     </PaperProvider>
   );
